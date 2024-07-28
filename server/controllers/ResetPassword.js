@@ -21,7 +21,7 @@ const resetPasswordToken = async(req, res) => {
 
         await User.findOneAndUpdate({email: email}, {token: token, resetPasswordExpires: Date.now() + 5 * 60 * 1000}, {new: true});
          
-        const url =  `https://edu-j9fd.onrender.com/${token}`;
+        const url =  `https://edu-roan-chi.vercel.app/${token}`;
 
         await mailSender(
 			email,
