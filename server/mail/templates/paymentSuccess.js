@@ -67,7 +67,7 @@ const paymentSuccessEmail = (amount, paymentId, orderId, name, lastname) => {
     
     <body>
         <div class="container">
-            <a href="https://studynotion-edtech-project.vercel.app"><img class="logo" src="https://i.ibb.co/c2vbYk4/eduquest.png"
+            <a href="https://edu-roan-chi.vercel.app/"><img class="logo" src="https://i.ibb.co/c2vbYk4/eduquest.png"
                     alt="Eduquest Logo"></a>
             <div class="message">
             Your payment of ₹${amount} has been successfully received.
